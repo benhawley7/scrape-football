@@ -1,0 +1,24 @@
+{
+  "name": "scrape-football",
+  "version": "0.0.0",
+  "description": "Scraping football-data.org matches",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [
+    "football",
+    "data",
+    "scrape"
+  ],
+  "author": "Ben Hawley",
+  "license": "MIT",
+  "dependencies": {
+    "app-settings": "^1.1.0",
+    "inquirer": "^7.3.3",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0"
+  }
+}
